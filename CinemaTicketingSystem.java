@@ -4,9 +4,9 @@ import java.awt.event.*;
 
 public class CinemaTicketingSystem extends JFrame implements ActionListener {
 
-    private String[] movies = {"The Matrix", "The Lord of the Rings", "Harry Potter and the Philosopher's Stone"};
-    private String[] dates = {"2022-02-21", "2022-02-22", "2022-02-23"};
-    private String[] times = {"10:00 AM", "02:00 PM", "06:00 PM"};
+    private String[] movies = {"The Matrix", "Antman & The Wasp", "Harry Potter and the Philosopher's Stone", "Avengers : Secret Wars", 'Didi & Friends", "Demon Slayer"};
+    private String[] dates = {"21 Feb", "22 Feb", "23 Feb", "24 Feb", "25 Feb", "26 Feb"};
+    private String[] times = {"10:00 AM", "02:00 PM", "06:00 PM", "08:00 PM"};
 
     private JComboBox<String> movieList;
     private JComboBox<String> dateList;
